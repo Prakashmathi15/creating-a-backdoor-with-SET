@@ -23,46 +23,36 @@ Open terminal and try execute some kali linux commands
 Social Engineering attacks are the various cons used by the hackers to trick people into providing sensitive data to the attackers. 
 The command sudo setoolkit in the prompt gives menu with set prompt:
 
-![out1](https://github.com/Reebak04/creating-a-backdoor-with-SET/assets/118364993/098c0b3a-88d0-49e8-a20a-9e3e8338f704)
-
-The command sudo setoolkit in the prompt gives menu with set prompt. Select menu1 for Social Engineering Attacks:
-
-
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/creating-a-backdoor-with-SET/assets/119644432/5795924a-394b-4f4c-8619-2d78fbec34cb)
 It displays the following menu and select 2 for Website Attack Vectors:
-
-![out2](https://github.com/Reebak04/creating-a-backdoor-with-SET/assets/118364993/3bb4c127-f934-4936-b6aa-090c25fa4182)
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/creating-a-backdoor-with-SET/assets/119644432/86f15a66-74bd-4972-8f90-fe350c8e8fc9)
 
 The website Attack Vectors displays the following menu. In this menu3 for Credential Harvester Attack Method is selected:
-
-![out3](https://github.com/Reebak04/creating-a-backdoor-with-SET/assets/118364993/b18ab1dc-30b7-4ae1-9d4e-2eda273e46bf)
-
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/creating-a-backdoor-with-SET/assets/119644432/db087060-9101-491b-9990-7f639bc729db)
 The Credential Harvester Attack Method displays the following menu. In this menu1 for Web Templates is selected:
-
-![out4](https://github.com/Reebak04/creating-a-backdoor-with-SET/assets/118364993/117814d4-f8b6-4479-bcf4-25634df85b17)
-
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/creating-a-backdoor-with-SET/assets/119644432/fc80596a-4045-406f-a46d-059ab17fa5a7)
 It shows the following screen in which the ip address of the attacker need to be given which is the default value:
-
-![out5](https://github.com/Reebak04/creating-a-backdoor-with-SET/assets/118364993/248aac47-e77a-4f2e-940a-4af024cdba97)
-
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/creating-a-backdoor-with-SET/assets/119644432/ba6f0a87-ef5d-4b38-95df-15eb99e2a11e)
 It shows the following screen in which the option Google can be selected:
 
-![out6](https://github.com/Reebak04/creating-a-backdoor-with-SET/assets/118364993/fea864fe-011d-472b-9e99-19ba7204633b)
-
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/creating-a-backdoor-with-SET/assets/119644432/22c56f45-f3cf-4d39-8851-553c72d18fd4)
 
 SET starts my Kali Linux Webserver on port 80, with the fake Google account login page. The setup is done:
 
-![out7](https://github.com/Reebak04/creating-a-backdoor-with-SET/assets/118364993/2a0ac6ae-95fd-4d70-98a9-7066ad5fb78f)
-
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/creating-a-backdoor-with-SET/assets/119644432/be737b19-0f40-4078-92a3-92208840632c)
 In windows IE, on giving the url http://192.168.1.2, the fake Google page is displayed. The victim can enter the username and password
 
-![login](https://github.com/Reebak04/creating-a-backdoor-with-SET/assets/118364993/c9389e65-2183-4967-a426-a48a0beb661e)
-
-
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/creating-a-backdoor-with-SET/assets/119644432/1ac5ac15-a048-466e-a9c8-cb462733b4ed)
 SET logs the information regarding the Google credentials:
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/creating-a-backdoor-with-SET/assets/119644432/17bf0508-02be-430b-abb4-b43a842bd9cb)
 
-![out8](https://github.com/Reebak04/creating-a-backdoor-with-SET/assets/118364993/31b58a4f-e4d8-4739-8ffa-2597bb82c4e8)
 
 SET logs the information in the xml file under /root/.set directory:
+
+![image](https://github.com/LOKESHKUMARPANCHATCHARAM/creating-a-backdoor-with-SET/assets/119644432/44445c6a-0254-45ea-a929-9399678dcc42)
+
+
+
 
 
 
